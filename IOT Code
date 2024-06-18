@@ -1,0 +1,59 @@
+# IOT CODE
+# ESP Wifi  Controller
+# HCHO Sensor
+# LCD Display
+# Power Supply
+# BLYNK APP 
+//chemical2389@yopmail.com
+//Info@2023
+#define BLYNK_PRINT Serial
+#include <ESP8266WiFi.h>
+#include <BlynkSimpleEsp8266.h>
+
+#define BLYNK_LATE_ID "TMPL3uftYab-g"
+#define BLYNK_TEMPLATE_NAME "chemical"
+#define BLYNK_AUTH_TOKEN "Y-vSKtdx3Tr5uSOY1i0VUISYi4y3GSIK"
+
+char auth[] = BLYNK_AUTH_TOKEN;
+
+char ssid[] = "IOT";
+char pass[] = "123456789";
+
+#define gas1 A0
+long int gas;
+#include <LCD_I2C.h>
+
+LCD_I2C lcd(0x27); 
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+  pinMode(gas1,INPUT);
+  lcd.begin();              
+  lcd.backlight();
+  lcd.setCursor(0, 0);
+  lcd.print("IDENTIFICATION");
+  lcd.setCursor(0, 1);
+  lcd.print("OF CHEMICAL");
+  Blynk.begin(auth, ssid, pass, "blynk.cloud", 80);
+  lcd.clear();
+  
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+Blynk.run();
+gas=analogRead(gas1);
+gas=map(gas,0,1024,0,100);
+Serial.print("gas : " );
+Serial.println(gas);
+Blynk.virtualWrite(V0,gas);
+lcd.setCursor(0, 0);
+lcd.print("GAS:");
+if(gas<=9){lcd.print("00");lcd.print(gas);}
+else if(gas<=99){lcd.print("0");lcd.print(gas);}
+else if(gas<=999){lcd.print("");lcd.print(gas);}
+
+
+delay(300);
+}
