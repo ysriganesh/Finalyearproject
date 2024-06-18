@@ -1,0 +1,70 @@
+One of the marine resources that is crucial for meeting the body's nutritional demands is 
+fish [1-3]. The body needs vitamins, minerals, and proteins found in fish to lower the risk of cancer, 
+heart disease, and stroke; it can also be used to treat high blood pressure and increase IQ 
+(intellectual quotient) [4–7]. Between 1961 and 2018, the sources of marine fish supply rose from 
+9.0 kg/capita to 20.5 kg/capita [8, 9]. Fish intended for public consumption made up 52% of the 
+aquatic food produced in 2018 (46%), which came from the sea [9]. The demand for food would 
+rise by 20% to 70% due to the projected 9.7 billion people on the planet by 2050 [10]. The average 
+annual intake of fish and fish products processed worldwide is 18.4 kg, with 128 million tones 
+consumed worldwide [4]. Indonesia currently has the fourth-largest population, and by 2045, it is 
+expected to reach 318.9 million [11]. As the world's second-largest fish producer after China, 
+Indonesia contributes significantly to the economy through raising incomes, varying sources of 
+revenue, obtaining foreign exchange, and supplying animal protein [3, 12]. Fish contributes 
+approximately 47.23%, or 12.57 g/day, of the total animal protein need, with daily animal protein 
+consumption meeting 26.61% of the requirement [13]. 
+Freshness is a crucial component of fish quality, and fish management organisations place a lot of 
+importance on evaluating it [16]. Fish management practices by businesses and fish markets are 
+crucial in determining the quality of fish that will be sold to consumers because, after being caught, 
+fish go through a degradation process that is brought on by bacterial growth, biochemical reactions, 
+and physical and chemical changes in the fish body. This process lowers the fish's quality [4, 14, 
+17-21]. 
+When fish are fresh, they look and feel just like live fish, but when they are rotten, their body 
+chemistry causes the gills, skin, meat, and eyeballs to turn discoloured and give off an 
+overpowering stench [4, 23]. Eating rotten fish can cause health difficulties for the consumer, 
+including diarrhoea, vomiting, respiratory issues, and cramping in the stomach [7, 24]. When it 
+comes to managing the process of catching and distributing fish to consumers, fish management 
+firms, market managers, and the government should be concerned about the significance of fish 
+freshness as an indicator of fish quality [16, 25]. The process of keeping an eye on and assessing 
+the freshness of fish is intimately linked to attempts to regulate its distribution [26]. A variety of 
+techniques based on physical, chemical, microbiological, and sensory factors can be used to 
+monitor and evaluate the freshness of fish [16, 27]. 
+Fish freshness and quality qualities are assessed by correlating sensory criteria with quantitative 
+chemical and physical approaches. The quantitative chemical and physical methods mentioned 
+above have several drawbacks, including the need for highly qualified operators, significant costs, 
+and time commitment. Furthermore, they cannot be used for online or in-field detection. 
+Furthermore, the fact that they take a long time is bad since, due to their quick spoiling, fish must 
+frequently be sold the same day they are killed. With the exception of sensors, the more cutting
+edge sensing techniques could solve these issues because they are quick, affordable, and non
+invasive, enabling online detection [27]  
+The identification and detection of formaldehyde coating in fish that can be eaten has showed 
+promise in recent years when Internet of Things (IoT) technology has been used [28][29]. IoT 
+technology consists of networked sensors and devices that gather and send data that may be 
+examined to find patterns [28]. By taking into account the fish's iris photos, machine learning 
+techniques convolutional neural networks (CNN) in particular have been effectively used to 
+determine the freshness of edible fish [30]. 
+An crucial metabolic intermediate is formaldehyde.generated in every cell as a result of the 
+metabolism of amino acids like methionine, glycine, and serine. Choline. On the other hand, 
+formaldehyde is a very harmful chemical that can cause cancer in people. According to Zhang et 
+al. (2008), long-term inhalation can cause respiratory symptoms as well as eye, nose, and throat 
+irritation caused by formaldehyde in seafood. Exposure to this chemical can raise the risk of 
+allergic responses, dermatitis, and brain, nasopharyngeal, and pharyngeal malignancies. An adult 
+human has been reported to die after ingesting 30 millilitres of formalin. Consumption may result 
+in a corrosive harm to the mucosa of the stomach, causing pain, nausea, vomiting, bleeding, and 
+perforation. The pharyngeal mucosa, epiglottis, and oesophagus are the areas where these injuries 
+are most noticeable. Metabolic acidosis, coma and depression of the central nervous system, 
+respiratory distress, renal failure, and the development of cancer and tumours are examples of 
+systemic consequences. Formaldehyde has the potential to enter and remain in the upper 
+respiratory tract after inhalation. Based on experimental research and other data, formaldehyde 
+was long regarded as a possible human carcinogen (Group 2A). Based on evidence of 
+nasopharyngeal cancer in humans, the International Agency for Research on Cancer (IARC) 
+categorised it as a human carcinogen (Group 1) in June 2004 [31]. 
+The natural production of formaldehyde in a variety of food products, especially fish, makes it 
+difficult to identify amounts that have been unlawfully added. Based on developmental phases and 
+environmental conditions, naturally occurring formaldehyde levels can vary greatly; they can 
+range from 0.1-0.3 mg kg-1 in milk to over 200 mg kg-1 in certain fish species. Fish that are stored 
+at different temperatures and for longer periods of time produce less trimethylamine-N-oxide, 
+which leads to the post-mortem production of formaldehyde. Formaldehyde levels in seafood have 
+been the subject of numerous research, which have highlighted its complexity and consequences 
+for food safety [31]  
+In this study, the aim is to provide a comprehensive analysis of the methods and techniques used 
+for the identification and detection of freshness and chemical substances in edible fishes 
